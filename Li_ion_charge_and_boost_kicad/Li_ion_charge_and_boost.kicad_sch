@@ -2432,12 +2432,6 @@
 		(uuid "67376552-a25a-4caa-a91a-d931eb993f02")
 	)
 	(junction
-		(at 93.98 105.41)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "914555fe-1821-4958-8f55-256074262819")
-	)
-	(junction
 		(at 257.81 67.31)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3234,16 +3228,6 @@
 			(type default)
 		)
 		(uuid "98f13ed9-e9d7-4058-bbe0-780ffd19222d")
-	)
-	(wire
-		(pts
-			(xy 93.98 105.41) (xy 93.98 107.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "99bc7df2-23e7-4ba5-9a10-4c0e8e1b18a7")
 	)
 	(wire
 		(pts
@@ -5986,7 +5970,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "cd6b2709-611b-4de8-8e08-617ae2ace6ee")
 		(property "Reference" "R4"
 			(at 81.28 118.1099 0)
@@ -5997,8 +5980,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Charging current"
-			(at 81.28 120.6499 0)
+		(property "Value" "1.2k   ( charging Current )"
+			(at 81.026 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
