@@ -5899,7 +5899,7 @@
 				)
 			)
 		)
-		(property "Footprint" "My Library:Type_C_6_Pin"
+		(property "Footprint" "Library:Type_c_6_Pin_Horizontal_mount"
 			(at 45.72 63.5 0)
 			(effects
 				(font
