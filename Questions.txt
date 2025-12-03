@@ -1,2 +1,10 @@
+Type c connector shield footprint
+Power connector footprint
+Aprt from type c, header pin input
+see what is the overcharge and overdischarge current and voltage of dw01a
+
+in pcb, give copper pours for ic and inductor( I don't know).
+
+
 check unplug the charger, connect the battery and still the protection ic and mosfet switch is working. why?
       if not means replace the gnd of boost with bat-.
