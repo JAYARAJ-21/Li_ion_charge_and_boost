@@ -2540,6 +2540,17 @@
 		)
 		(uuid "3d0b09bb-038e-48eb-81f6-01ffe29254f4")
 	)
+	(text "Battery_output_to_microcontroller\n\n"
+		(exclude_from_sim no)
+		(at 210.058 105.918 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 255 48 68 1)
+			)
+		)
+		(uuid "cd4f34f9-b3b2-41c4-9c43-499a55db7358")
+	)
 	(text "Overcharge and overdischarge protection\n"
 		(exclude_from_sim no)
 		(at 128.016 37.592 0)
@@ -2737,6 +2748,16 @@
 		)
 		(uuid "08cb60b2-8fb5-4640-9e89-4408c5f9e942")
 	)
+	(polyline
+		(pts
+			(xy 228.6 120.65) (xy 194.31 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "12f9f17f-30bc-42bb-8136-366191b0a521")
+	)
 	(wire
 		(pts
 			(xy 236.22 74.93) (xy 234.95 74.93)
@@ -2756,6 +2777,16 @@
 			(type default)
 		)
 		(uuid "171b7b96-687a-4853-aa41-bcb91bee99fa")
+	)
+	(polyline
+		(pts
+			(xy 195.58 106.68) (xy 228.6 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "193b320c-844f-4b7a-8133-fc77084a861d")
 	)
 	(wire
 		(pts
@@ -3179,6 +3210,16 @@
 	)
 	(polyline
 		(pts
+			(xy 228.6 106.68) (xy 228.6 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5f2ce07b-524f-41dd-818c-50f505d4319b")
+	)
+	(polyline
+		(pts
 			(xy 24.13 29.21) (xy 187.96 29.21)
 		)
 		(stroke
@@ -3316,6 +3357,16 @@
 			(type default)
 		)
 		(uuid "7aec2224-6ce7-466e-aa07-2ad90b6f894d")
+	)
+	(polyline
+		(pts
+			(xy 194.31 120.65) (xy 194.31 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7cd5a0a4-66d0-4744-9561-741f7976eaf2")
 	)
 	(wire
 		(pts
@@ -3567,6 +3618,16 @@
 		)
 		(uuid "a63fc1d9-b1e3-49a6-9ff9-bad1b36d9d2f")
 	)
+	(wire
+		(pts
+			(xy 204.47 111.76) (xy 207.01 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a854e2ee-6f38-4008-9cef-8585887684f0")
+	)
 	(polyline
 		(pts
 			(xy 176.53 69.85) (xy 107.95 69.85)
@@ -3586,6 +3647,16 @@
 			(type default)
 		)
 		(uuid "aaf06f6a-3333-450e-a54b-fe26269248cb")
+	)
+	(wire
+		(pts
+			(xy 204.47 116.84) (xy 219.71 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aee19224-15af-4403-b496-76350279a5c2")
 	)
 	(wire
 		(pts
@@ -3889,6 +3960,16 @@
 	)
 	(wire
 		(pts
+			(xy 219.71 111.76) (xy 217.17 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ea5d6b35-5d6f-4db8-8d9a-eb017caa34c8")
+	)
+	(wire
+		(pts
 			(xy 54.61 106.68) (xy 53.34 106.68)
 		)
 		(stroke
@@ -3916,6 +3997,16 @@
 			(type default)
 		)
 		(uuid "efbfb80d-9130-44a9-b6c6-d15366ba6bd5")
+	)
+	(polyline
+		(pts
+			(xy 194.31 106.68) (xy 196.85 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f555a4a3-2436-4f8a-bfac-c74555a97a2d")
 	)
 	(polyline
 		(pts
@@ -4066,6 +4157,28 @@
 		(uuid "2055bd98-d45d-4ee9-9a25-e8c598369daa")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 110.2262 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "BAT-"
+		(shape input)
+		(at 204.47 116.84 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "3012c7fc-d990-466b-90bd-c917a3d081d3")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 196.5862 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4242,6 +4355,28 @@
 		(uuid "b8eb822c-9ca1-4e11-b78c-3821adec73a2")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 125.2243 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "BAT+"
+		(shape input)
+		(at 204.47 111.76 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "cc89c107-80cc-45a3-bef2-9ab0ce7578a3")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 196.5862 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5469,6 +5604,73 @@
 	)
 	(symbol
 		(lib_id "My_Library:Power_Connector")
+		(at 219.71 109.22 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3b9fb5b7-5b15-4a8a-91b7-34f27b4dadb2")
+		(property "Reference" "BAT+1"
+			(at 219.964 109.474 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 223.52 113.0299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 219.71 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 219.71 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 219.71 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8d4d977f-b4e7-4bfd-995e-812207c9966e")
+		)
+		(instances
+			(project "Li_ion_charge_and_boost"
+				(path "/13892b6c-e7b6-4d40-a93f-2f9164a7680b"
+					(reference "BAT+1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "My_Library:Power_Connector")
 		(at 86.36 43.18 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5595,6 +5797,80 @@
 			(project "Li_ion_charge_and_boost"
 				(path "/13892b6c-e7b6-4d40-a93f-2f9164a7680b"
 					(reference "#PWR06")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_DPST_x2")
+		(at 212.09 111.76 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "641d35ff-95ab-4a29-bb40-76c257d3d878")
+		(property "Reference" "SW2"
+			(at 212.598 108.458 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_DPST_x2"
+			(at 212.09 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 212.09 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 212.09 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Single Pole Single Throw (SPST) switch, separate symbol"
+			(at 212.09 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "43e54de0-518e-4987-902b-e84caaf2b73c")
+		)
+		(pin "2"
+			(uuid "3f585a1e-c6ac-4f69-a37b-44f5a36c8b5c")
+		)
+		(pin "3"
+			(uuid "72175df4-ac7d-4080-8a1e-f75bc431e3d1")
+		)
+		(pin "4"
+			(uuid "2b25a109-f511-43fe-8031-88b6218acd7b")
+		)
+		(instances
+			(project "Li_ion_charge_and_boost"
+				(path "/13892b6c-e7b6-4d40-a93f-2f9164a7680b"
+					(reference "SW2")
 					(unit 1)
 				)
 			)
@@ -6432,6 +6708,73 @@
 			(project "Li_ion_charge_and_boost"
 				(path "/13892b6c-e7b6-4d40-a93f-2f9164a7680b"
 					(reference "R6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "My_Library:Power_Connector")
+		(at 219.71 114.3 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a7fa3965-db95-42d5-bb97-3074ce060a3a")
+		(property "Reference" "BAT-1"
+			(at 219.964 114.554 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 223.52 118.1099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 219.71 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 219.71 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 219.71 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4387a630-dd58-4c92-99bf-38900389c571")
+		)
+		(instances
+			(project "Li_ion_charge_and_boost"
+				(path "/13892b6c-e7b6-4d40-a93f-2f9164a7680b"
+					(reference "BAT-1")
 					(unit 1)
 				)
 			)
