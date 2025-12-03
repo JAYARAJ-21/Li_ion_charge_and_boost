@@ -1,0 +1,2 @@
+check unplug the charger, connect the battery and still the protection ic and mosfet switch is working. why?
+      if not means replace the gnd of boost with bat-.
